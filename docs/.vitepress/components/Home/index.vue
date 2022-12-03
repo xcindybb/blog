@@ -1,7 +1,7 @@
 <template>
   <div class="mt-32 md:mt-16 md:mx-[10%] flex justify-center items-center">
     <div class="px-8 md:px-20 text-center">
-      <div ref="el" class="text-4xl md:text-6xl font-semibold tracking-wider md:tracking-[10px] text-[#3b2c90] dark:text-green-300">
+      <div ref="el" class="slogan text-4xl md:text-6xl font-semibold tracking-wider md:tracking-[10px]">
         <div>欢迎来到我的</div>
         <div class="mt-4">工作思维！</div>
       </div>
@@ -47,3 +47,11 @@ import { onMounted, ref } from 'vue'
 // })
 
 </script>
+
+<style scope>
+.slogan {
+  background: linear-gradient(to right, #3b2c90, green);
+  -webkit-background-clip: text;
+  color: transparent;
+}
+</style>
