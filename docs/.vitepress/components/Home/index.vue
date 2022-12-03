@@ -54,4 +54,7 @@ import { onMounted, ref } from 'vue'
   -webkit-background-clip: text;
   color: transparent;
 }
+.slogan::first-letter {
+  @apply text-[100px];
+}
 </style>
