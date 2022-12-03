@@ -16,6 +16,7 @@
     "build": "vitepress build docs"
   },
   "dependencies": {
-    "element-plus": "^2.2.6"
+    "element-plus": "^2.2.6",
+    "typeit": "^8.7.0"
   }
 }
