@@ -3,10 +3,11 @@ import { getFirstDocLink, autoGenerateSidebar } from 'press-util'
 
 export default defineConfig({
   base: '/',
-  title: 'Vitepress Template',
+  title: 'Ruobing\'s blog',
   description: 'Vitepress documentation template project',
 
   themeConfig: {
+    logo: 'logo.png',
     nav: [{
       text: '基础能力',
       items: [{
