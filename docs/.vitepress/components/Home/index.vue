@@ -10,6 +10,15 @@
     </div>
     <Right class="hidden md:block shrink-0" />
   </div>
+
+  <!-- 左上角 -->
+  <div class="fixed w-[200px] h-[200px] rounded-full bg-blue-800 opacity-30 left-[-80px] top-[-70px] z-[100]"></div>
+
+  <!-- 左下角 -->
+  <div class="fixed w-[400px] h-[400px] rounded-full bg-pink-800 opacity-10 left-[-250px] bottom-[-250px] z-[100]"></div>
+
+  <!-- 右下角 -->
+  <div class="fixed w-[200px] md:w-[500px] h-[200px] md:h-[500px] bg-green-800 opacity-30 right-0 bottom-0 rotate-45 translate-x-[100px] md:translate-x-[300px] translate-y-[150px] md:translate-y-[300px]"></div>
 </template>
 
 <script setup lang="ts">
