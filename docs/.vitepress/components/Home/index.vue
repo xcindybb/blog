@@ -1,12 +1,20 @@
 <template>
   <div class="mt-32 md:mt-16 md:mx-[10%] flex justify-center items-center">
-    <div class="px-8 md:px-20 text-center">
-      <div ref="el" class="slogan text-4xl md:text-6xl font-semibold tracking-wider md:tracking-[10px]">
-        <div>欢迎来到我的</div>
-        <div class="mt-4">工作思维！</div>
+    <div class="px-8 md:px-20">
+      <div ref="el" class="slogan text-4xl md:text-5xl !leading-[1.5] font-semibold tracking-wider md:tracking-[10px]">
+        <div>我和你说，</div>
+        <div>
+          虽然今天是周一，
+        </div>
+        <div>
+          但是还有5天就周六了
+        </div>
+        <!-- <div class="mt-4">工作思维！</div> -->
       </div>
-      <div class="mt-12 text-[#3b2c90] dark:text-green-300 text-xl font-semibold">售前思维构思</div>
-      <img src="./sign.png" class="mt-6 inline w-[100px]">
+      <div class="text-left">
+        <div class="mt-12 text-[#3b2c90] dark:text-green-300 text-xl font-semibold">售前思维构思</div>
+        <img src="./sign.png" class="mt-6 inline w-[100px]">
+      </div>
     </div>
     <Right class="hidden md:block shrink-0" />
   </div>
@@ -33,8 +41,8 @@ import { onMounted, ref } from 'vue'
 //     breakLines: true,
 //     html: true,
 //     strings: [
-//       'Hello, 我是晓平。',
-//       '很高兴与你相遇，一同学习知识。',
+//       // 'Hello, 我是晓平。',
+//       // '很高兴与你相遇，一同学习知识。',
 //       // '',
 //       // '人生到处知何似，应似飞鸿踏雪泥',
 //       // '泥上偶然留指爪，鸿飞哪复计东西',
@@ -53,8 +61,5 @@ import { onMounted, ref } from 'vue'
   background: linear-gradient(to right, #3b2c90, green);
   -webkit-background-clip: text;
   color: transparent;
-}
-.slogan::first-letter {
-  @apply text-[100px];
 }
 </style>
