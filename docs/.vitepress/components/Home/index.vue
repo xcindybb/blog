@@ -12,7 +12,7 @@
         <!-- <div class="mt-4">工作思维！</div> -->
       </div>
       <div class="text-left">
-        <div class="mt-12 text-[#3b2c90] dark:text-green-300 text-xl font-semibold">售前思维构思</div>
+        <!-- <div class="mt-12 text-[#3b2c90] dark:text-green-300 text-xl font-semibold">售前思维构思</div> -->
         <img src="./sign.png" class="mt-6 inline w-[100px]">
       </div>
     </div>
