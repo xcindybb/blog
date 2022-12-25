@@ -9,7 +9,7 @@ export default defineConfig({
   themeConfig: {
     logo: 'logo.png',
     nav: [{
-      text: '基础能力',
+      text: '📚基础能力',
       items: [{
         text: '练笔',
         link: getFirstDocLink('base/write')
