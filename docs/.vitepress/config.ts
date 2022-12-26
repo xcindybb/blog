@@ -9,17 +9,14 @@ export default defineConfig({
   themeConfig: {
     logo: 'logo.png',
     nav: [{
-      text: '📚基础能力',
-      items: [{
-        text: '练笔',
-        link: getFirstDocLink('base/write')
-      }, {
-        text: '善思',
-        link: getFirstDocLink('base/think')
-      }, {
-        text: '售前工具',
-        link: getFirstDocLink('base/util')
-      }]
+      text: '✒ 练笔',
+      link: getFirstDocLink('base/write')
+    }, {
+      text: '🤔 善思',
+      link: getFirstDocLink('base/think')
+    }, {
+      text: '🔨 售前工具',
+      link: getFirstDocLink('base/util')
     }],
 
     sidebar: autoGenerateSidebar(),
