@@ -10,12 +10,13 @@ export default defineConfig({
   themeConfig: {
     logo: 'logo.png',
     lastUpdatedText: '最后更新于',
+    outline: [2, 4],
     outlineTitle: '目录',
     nav: [{
-      text: '✒ 练笔',
+      text: '✒ 数据安全',
       link: getFirstDocLink('base/write')
     }, {
-      text: '🤔 善思',
+      text: '🤔 思考',
       link: getFirstDocLink('base/think')
     }, {
       text: '🔨 售前工具',
