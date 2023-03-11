@@ -1,22 +1,33 @@
 {
-  "name": "blog",
+  "name": "vitepress-template",
   "version": "0.0.1",
-  "description": "Cindy's blog",
+  "description": "vitepress documentation template",
+  "repository": "git@github.com:shoppingzh/vitepress-template.git",
+  "author": "shoppingzh <xpzheng6@163.com>",
+  "license": "MIT",
   "devDependencies": {
+    "@types/node": "^18.14.1",
+    "@types/rimraf": "^3.0.2",
     "autoprefixer": "^10.4.13",
+    "iconfont-downloader": "^0.0.2",
     "less": "^4.1.3",
     "postcss": "^8.4.21",
-    "press-util": "^0.1.0",
-    "tailwindcss": "^3.2.4",
-    "vitepress": "1.0.0-alpha.45",
+    "press-util": "^0.1.2",
+    "prompt": "^1.3.0",
+    "rimraf": "^3.0.2",
+    "tailwindcss": "^3.2.7",
+    "vite": "^3.2.5",
+    "vite-plugin-svg-icons": "^2.0.1",
+    "vitepress": "1.0.0-alpha.47",
     "vue": "^3.2.47"
   },
   "scripts": {
-    "dev": "vitepress dev docs --host",
-    "build": "vitepress build docs"
+    "dev": "vitepress dev docs",
+    "build": "vitepress build docs",
+    "gen-icons": "node docs/.vitepress/build/gen-icons.js"
   },
   "dependencies": {
-    "element-plus": "^2.2.29",
-    "typeit": "^8.7.1"
+    "element-plus": "^2.2.32",
+    "medium-zoom": "^1.0.8"
   }
 }

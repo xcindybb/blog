@@ -2,7 +2,7 @@
 module.exports = {
   content: [
     "./docs/.vitepress/**/*.{vue,js,ts,jsx,tsx}",
-    "./docs/**/*.md",
+    "./docs/**/*.md"
   ],
   darkMode: 'class',
   theme: {
