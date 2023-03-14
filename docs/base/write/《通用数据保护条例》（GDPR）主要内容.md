@@ -1,5 +1,5 @@
 # 《通用数据保护条例》（GDPR）主要内容
-> 可直接查看法律文件 [通用数据保护条例]（https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32016R0679）
+> 可直接查看法律文件 [通用数据保护条例](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32016R0679)
 
 欧盟的《通用数据保护条例》（General Data Protection Regulation，GDPR）于2018年5月25日生效，是一项针对个人数据保护和隐私的综合性法规。主要内容如下：
 
