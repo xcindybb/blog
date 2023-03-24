@@ -3,4 +3,7 @@
 :root {
   --vp-home-hero-name-color: transparent;
   --vp-home-hero-name-background: -webkit-linear-gradient(120deg, theme('colors.purple.500'), theme('colors.green.500'));
+
+  /* 侧边栏 */
+  /* --vp-sidebar-width: 320px; */
 }
