@@ -22,14 +22,14 @@ export default defineConfig({
     outline: [2, 4],
     outlineTitle: '目录',
     nav: [{
-      text: '✒ 数据安全',
-      link: getFirstDocLink('base/write')
+      text: '✒ 信息安全',
+      link: getFirstDocLink('write')
     }, {
-      text: '🤔 思考',
-      link: getFirstDocLink('base/think')
+      text: '🤔 杂记',
+      link: getFirstDocLink('think')
     }, {
-      text: '🔨 售前工具',
-      link: getFirstDocLink('base/util')
+      text: '🔨 工具',
+      link: getFirstDocLink('util')
     }],
 
     sidebar: autoGenerateSidebar(),
