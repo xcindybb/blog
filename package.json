@@ -30,6 +30,7 @@
   "dependencies": {
     "animejs": "^3.2.1",
     "element-plus": "^2.3.7",
-    "medium-zoom": "^1.0.8"
+    "medium-zoom": "^1.0.8",
+    "typeit": "^8.7.1"
   }
 }
