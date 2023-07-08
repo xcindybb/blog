@@ -6,6 +6,7 @@
   "author": "shoppingzh <xpzheng6@163.com>",
   "license": "MIT",
   "devDependencies": {
+    "@types/animejs": "^3.1.7",
     "@types/node": "^18.16.19",
     "@types/rimraf": "^3.0.2",
     "autoprefixer": "^10.4.14",
@@ -27,6 +28,7 @@
     "gen-icons": "node docs/.vitepress/build/gen-icons.js"
   },
   "dependencies": {
+    "animejs": "^3.2.1",
     "element-plus": "^2.3.7",
     "medium-zoom": "^1.0.8"
   }
