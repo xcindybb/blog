@@ -9,7 +9,7 @@
 
 <script setup lang="ts">
 import { onMounted, ref } from 'vue';
-import anime from 'animejs/lib/anime.es'
+import anime from 'animejs'
 import TypeIt from 'typeit'
 
 const el = ref()
