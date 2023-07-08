@@ -3,7 +3,7 @@
 
     <img ref="dartsEl" src="./assets/darts.png" class="fixed z-10 top-[345px] w-[300px] right-[80%]">
 
-    <img ref="targetEl" src="./assets/target.png" class="fixed right-0 top-[-1000px] w-[700px] h-[700px] object-cover rounded-full">
+    <img ref="targetEl" src="./assets/target.png" class="fixed right-0 top-[30px] w-[700px] h-[700px] object-cover rounded-full">
   </div>
 </template>
 
@@ -18,12 +18,11 @@ function animation() {
   anime({
     targets: targetEl.value,
     // translateX: -500,
-    duration: 350,
+    duration: 500,
     // easing: 'easeInOutElastic(1, .6)',
-    rotateY: 60,
+    rotateY: -60,
     // rotateZ: 180,
-    top: 30,
-    endDelay: 2000,
+    endDelay: 0,
     easing: 'easeOutQuad',
     boxShadow: '30px 30px 50px 20px rgba(0, 0, 0, .2)',
     complete: (anim) => {
@@ -32,13 +31,13 @@ function animation() {
         right: 350,
         easing: 'easeInElastic(0, 1)',
         duration: 200,
+        endDelay: 1000,
         complete: () => {
           anime({
             targets: dartsEl.value,
             right: 'auto',
             left: 0,
             rotate: -90,
-            delay: 2000,
             opacity: 0.4,
             width: 120,
             top: 700,
@@ -49,7 +48,6 @@ function animation() {
             scale: 2,
             opacity: 0.05,
             duration: 500,
-            delay: 2000,
             easing: 'easeOutQuad',
           })
         }
